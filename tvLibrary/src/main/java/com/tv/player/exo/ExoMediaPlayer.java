@@ -37,7 +37,6 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
     protected Context mAppContext;
     protected SimpleExoPlayer mInternalPlayer;
     protected MediaSource mMediaSource;
-    protected ExoMediaSourceHelper mMediaSourceHelper;
 
     private PlaybackParameters mSpeedPlaybackParameters;
 
@@ -52,7 +51,6 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
 
     public ExoMediaPlayer(Context context) {
         mAppContext = context.getApplicationContext();
-        mMediaSourceHelper = ExoMediaSourceHelper.getInstance(context);
     }
 
     @Override

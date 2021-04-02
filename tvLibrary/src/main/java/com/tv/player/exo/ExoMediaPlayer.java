@@ -52,6 +52,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
 
     public ExoMediaPlayer(Context context) {
         mAppContext = context.getApplicationContext();
+        mMediaSourceHelper = ExoMediaSourceHelper.getInstance(context);
     }
 
     @Override

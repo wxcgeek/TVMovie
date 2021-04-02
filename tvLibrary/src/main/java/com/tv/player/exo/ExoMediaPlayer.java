@@ -37,6 +37,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
     protected Context mAppContext;
     protected SimpleExoPlayer mInternalPlayer;
     protected MediaSource mMediaSource;
+    protected ExoMediaSourceHelper mMediaSourceHelper;
 
     private PlaybackParameters mSpeedPlaybackParameters;
 

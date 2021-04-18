@@ -56,6 +56,7 @@ public class ExoMediaPlayer extends AbstractPlayer implements VideoListener, Pla
 
     @Override
     public void initPlayer() {
+        mTrackSelector = new DefaultTrackSelector();
         LoadControl loadControl = new LdDefaultLoadControl();
         mInternalPlayer = new SimpleExoPlayer.Builder(
                 mAppContext,

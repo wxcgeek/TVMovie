@@ -2,13 +2,13 @@
   {
     "id": 0,
     "name": "最大资源",
-    "api": "http://www.zdziyuan.com/inc/api.php",
+    "api": "http://c.bukai.men/api.php/provide/vod/at/xml",
     "download": "http://www.zdziyuan.com/inc/apidown.php"
   },
   {
     "id": 1,
     "name": "OK资源",
-    "api": "http://cj.okzy.tv/inc/api.php",
+    "api": "http://cj.bajiecaiji.com/inc/api.php",
     "download": "http://cj.okzy.tv/inc/apidown.php"
   },
   {
